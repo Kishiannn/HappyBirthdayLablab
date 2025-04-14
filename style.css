@@ -1,0 +1,54 @@
+body {
+    background-color: #f5f5dc; /* beige */
+}
+/*header*/
+.happy-birthday-text{
+    -webkit-text-stroke: 2px black; /* for Chrome/Safari */
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; /* fallback for others */
+    position: absolute;
+    color: #FDFD96;
+    font-size: 80px;
+    top: 10%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for the element's size */
+}
+.name{
+    position: absolute;
+    font-size: 30px;
+    top: 22%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for the element's size */
+}
+.header-line{
+    position: absolute;
+    top: 26%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for the element's size */
+    height: 5px; /* Line thickness */
+    background-color: black; /* Line color */
+    border: none; /* Remove default border */
+    width: 50%; /* Width of the line */
+    margin: 30px auto; /* Add space above and below the line */
+}
+/*main-body*/
+.main-body{
+    position: absolute;
+    padding: 20px;
+    top: 60%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    width: 60vw;
+    transform: translate(-50%, -50%); /* Adjusts for the element's size */
+    border: 3px solid black;
+}
+.context{
+    font-size: 20px;
+}
+.from-text{
+    position: absolute;
+    left: 50vw;
+    top: 22vw;
+}
